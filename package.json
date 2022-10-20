@@ -11,9 +11,22 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/lit": "^1.0.1",
     "@astrojs/tailwind": "^2.1.0",
     "@astrojs/vercel": "^2.2.0",
+    "@fontsource/montserrat": "^4.5.13",
+    "@lit/localize": "^0.11.4",
+    "@webcomponents/template-shadowroot": "^0.1.0",
     "astro": "^1.5.0",
+    "autoprefixer": "^10.4.12",
+    "lit": "^2.4.0",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "@lit/localize-tools": "^0.6.5",
+    "postcss-import": "^15.0.0",
+    "postcss-nesting": "^10.2.0"
   }
 }
